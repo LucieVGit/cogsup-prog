@@ -19,7 +19,7 @@ lst = [1, 4, -6, 7, 2, 3, 9, 11, 6] # In all exercises in this script, you will 
 
 print("Exercise 3.1")
 
-pass
+print(sum(lst))
 
 print("---")
 
@@ -33,7 +33,15 @@ Print the product of the elements in the list.
 
 print("Exercise 3.2")
 
-pass
+import math
+print(math.prod(lst))
+
+# whithout library version
+
+#product = 1
+#for num in lst:
+#  product *= num
+#print(product)
 
 print("---")
 
@@ -47,7 +55,8 @@ Print the sum of the squares of the list.
 
 print("Exercise 3.3")
 
-pass
+newlst=[n**2 for n in lst]
+print(sum(newlst))
 
 print("---")
 
@@ -61,7 +70,7 @@ Print the largest element of the list.
 
 print("Exercise 3.4")
 
-pass
+print(max(lst))
 
 print("---")
 
@@ -75,6 +84,10 @@ Print the largest element of the list.
 
 print("Exercise 3.5")
 
-pass
+print(max(lst))
+
+# maybe you meant smallest ?
+# that would be :
+# print(min(lst))
 
 print("---")
