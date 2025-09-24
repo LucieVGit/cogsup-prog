@@ -23,6 +23,8 @@ while square_left.position[0] < -50:
     square_right.present(clear=False, update=True)
     exp.clock.wait(15) 
 
+exp.clock.wait(50) # I feel that 50 ms is the threshold at which it does not disrupt my impression of causality
+
 while square_right.position[0] < 400 :
     square_right.move((5, 0))        # move 5 pixels to the right
     square_right.present(clear=True, update=False)

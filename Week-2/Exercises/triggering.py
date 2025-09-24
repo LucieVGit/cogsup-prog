@@ -27,10 +27,13 @@ while square_right.position[0] < 400 :
     square_right.move((5, 0))        # move 5 pixels to the right
     square_right.present(clear=True, update=False)
     square_left.present(clear=False, update=True)
-    exp.clock.wait(15) 
+    exp.clock.wait(5) 
 
 # Leave it on-screen until a key is pressed
 exp.keyboard.wait()
 
 # End the current session and quit expyriment
 control.end()
+
+# Does it still look like the red square caused the green square to move?
+# In my opinion yes, because the two squares may not have the same weights so the green one would be "pushed" and be faster

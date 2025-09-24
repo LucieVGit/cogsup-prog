@@ -1,6 +1,5 @@
 # Import the main modules of expyriment
 from expyriment import design, control, stimuli
-control.set_develop_mode()
 
 # Create an object of class Experiment: This stores the global settings of your experiment & handles the data file, screen, and input devices
 exp = design.Experiment(name = "Two squares")

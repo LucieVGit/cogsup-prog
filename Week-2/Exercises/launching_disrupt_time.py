@@ -17,7 +17,11 @@ control.start(subject_id=1)
 square_left.present(clear=True, update=False)
 square_right.present(clear=False, update=True)
 
-while square_left.position[0] < -50:
+x = -50
+n = -10 # I feel that x pixels is the threshold at which it does not disrupt my impression of causality
+t = x + n
+
+while square_left.position[0] < t :  
     square_left.move((5, 0))        # move 5 pixels to the right
     square_left.present(clear=True, update=False)
     square_right.present(clear=False, update=True)
