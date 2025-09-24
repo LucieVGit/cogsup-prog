@@ -1,0 +1,97 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 02:47:38
+#sha1: 93c24e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3811,design,log,
+#design: #exp: Two squares
+#design: block_cnt,block_id,trial_cnt,trial_id
+3811,design,logged,
+3811,Experiment,started
+3812,Stimulus,presented,0
+3813,Stimulus,presented,1
+3814,Stimulus,presented,0
+3818,Stimulus,presented,1
+3848,Stimulus,presented,0
+3850,Stimulus,presented,1
+3880,Stimulus,presented,0
+3882,Stimulus,presented,1
+3912,Stimulus,presented,0
+3913,Stimulus,presented,1
+3944,Stimulus,presented,0
+3945,Stimulus,presented,1
+3976,Stimulus,presented,0
+3977,Stimulus,presented,1
+4008,Stimulus,presented,0
+4009,Stimulus,presented,1
+4039,Stimulus,presented,0
+4040,Stimulus,presented,1
+4071,Stimulus,presented,0
+4073,Stimulus,presented,1
+4103,Stimulus,presented,0
+4105,Stimulus,presented,1
+4136,Stimulus,presented,0
+4137,Stimulus,presented,1
+4168,Stimulus,presented,0
+4169,Stimulus,presented,1
+4199,Stimulus,presented,0
+4201,Stimulus,presented,1
+4231,Stimulus,presented,0
+4233,Stimulus,presented,1
+4263,Stimulus,presented,0
+4265,Stimulus,presented,1
+4295,Stimulus,presented,0
+4297,Stimulus,presented,1
+4327,Stimulus,presented,0
+4329,Stimulus,presented,1
+4359,Stimulus,presented,0
+4361,Stimulus,presented,1
+4391,Stimulus,presented,0
+4392,Stimulus,presented,1
+4423,Stimulus,presented,0
+4424,Stimulus,presented,1
+4455,Stimulus,presented,0
+4456,Stimulus,presented,1
+4487,Stimulus,presented,0
+4488,Stimulus,presented,1
+4519,Stimulus,presented,0
+4520,Stimulus,presented,1
+4550,Stimulus,presented,0
+4551,Stimulus,presented,1
+4582,Stimulus,presented,0
+4583,Stimulus,presented,1
+4614,Stimulus,presented,0
+4615,Stimulus,presented,1
+4646,Stimulus,presented,0
+4647,Stimulus,presented,1
+4677,Stimulus,presented,0
+4679,Stimulus,presented,1
+4709,Stimulus,presented,0
+4710,Stimulus,presented,1
+4741,Stimulus,presented,0
+4742,Stimulus,presented,1
+4773,Stimulus,presented,0
+4774,Stimulus,presented,1
+4804,Stimulus,presented,0
+4806,Stimulus,presented,1
+4836,Stimulus,presented,0
+4837,Stimulus,presented,1
+4868,Stimulus,presented,0
+4869,Stimulus,presented,1
+4899,Stimulus,presented,0
+4901,Stimulus,presented,1
+4931,Stimulus,presented,0
+4932,Stimulus,presented,1
+4963,Stimulus,presented,0
+4964,Stimulus,presented,1
+4995,Stimulus,presented,0
+4996,Stimulus,presented,1
+5026,Stimulus,presented,0
+5028,Stimulus,presented,1
+5058,Stimulus,presented,0
+5060,Stimulus,presented,1
+5090,stderr,received,'Traceback (most recent call last):'
+5091,stderr,received,'  File "C:\\Users\\lucie\\documents\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\launching.py", line 27, in <module>\n    if square_left.position(0,0):\n       ~~~~~~~~~~~~~~~~~~~~^^^^^'
+5091,stderr,received,"TypeError: 'list' object is not callable"

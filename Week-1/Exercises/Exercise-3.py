@@ -33,15 +33,14 @@ Print the product of the elements in the list.
 
 print("Exercise 3.2")
 
-import math
-print(math.prod(lst))
+# with library version
+# import math
+# print(math.prod(lst))
 
-# whithout library version
-
-#product = 1
-#for num in lst:
-#  product *= num
-#print(product)
+product = 1
+for num in lst:
+  product *= num
+print(product)
 
 print("---")
 

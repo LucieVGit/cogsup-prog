@@ -18,14 +18,22 @@ Task:
 Go back to the code you wrote for exercise 2.7 and turn it into a function called print_triangle_o.
 The function should take one argument called 'rows' and print a triangle out of 'o's with n rows.
 """
-
+"""
+    Print a centered triangle made of the letter 'o'.
+"""
 sprint("Exercise 5.1")
 
+rows = 5 # to hide if ask_rows is used
 def print_triangle_o(rows):
-    """
-    Print a centered triangle made of the letter 'o'.
-    """
-    pass
+    max_width = 2*rows - 1
+    for i in range(1, rows + 1):
+        num_os = 2*i - 1
+        line = 'o' * num_os
+        print(line.center(max_width))
+# ask_rows = input("how many rows do you want ? : ")
+# rows = int(ask_rows)
+print_triangle_o(rows)
+
 
 sprint("---")
 
@@ -37,12 +45,19 @@ Task:
 Go back to the code you wrote for exercise 3.2 and turn it into a function called prod_list_easy.
 You can assume that all the elements of the list are numbers.
 """
+"""Returns the product of the elements in a number list iteratively."""
 
 sprint("Exercise 5.2")
 
+lst = [1, 4, -6, 7, 2, 3, 9, 11, 6]
+
 def prod_list_easy(lst):
-    """Returns the product of the elements in a number list iteratively."""
-    pass
+    product = 1
+    for num in lst:
+        product *= num
+    return product
+
+
 
 sprint("---")
 
@@ -58,12 +73,15 @@ loops.
 Hint: Can you think of a recursive way to do it?
 ------
 """
+"""Returns the product of the elements in a number list recursively."""
 
 sprint("Exercise 5.3")
 
 def prod_list_rec(lst):
-    """Returns the product of the elements in a number list recursively."""
-    pass
+    if len(lst) == 1:
+        return lst[0]
+    return lst[0] * prod_list_rec(lst[1:])
+
 
 sprint("---")
 
@@ -78,17 +96,27 @@ executing in case not all of the elements of the list are numbers.
 Hint: The product of the empty set is 1.
 ------
 """
-
-sprint("Exercise 5.4")
-
-def prod_list_rec_full(lst):
-    """
+"""
     Recursively return the product of a list of numbers.
 
     If the list contains non-numeric elements, a message is printed out
     and the function returns nothing.
     """
-    pass
+    
+sprint("Exercise 5.4")
+
+def prod_list_rec_full(lst):
+    if not lst:
+        return 1
+
+    if not isinstance(lst[0], (int, float)):
+        print("List contains non-numeric element:", lst[0])
+        return None
+
+    if len(lst) == 1:
+        return lst[0]
+
+    return lst[0] * prod_list_rec_full(lst[1:])
     
 sprint("---")
 
@@ -103,16 +131,16 @@ expected outputs. If you solved the exercises correctly, the script will tell yo
 ------
 """
 
-### Run test cases
-# if __name__ == "__main__":
-#     from testcases import (
-#         run_tests_ex51,
-#         run_tests_ex52,
-#         run_tests_ex53,
-#         run_tests_ex54,
-#     )
+## Run test cases
+if __name__ == "__main__":
+    from testcases import (
+        run_tests_ex51,
+        run_tests_ex52,
+        run_tests_ex53,
+        run_tests_ex54,
+    )
 
-#     run_tests_ex51()
-#     run_tests_ex52()
-#     run_tests_ex53()
-#     run_tests_ex54()
+    run_tests_ex51()
+    run_tests_ex52()
+    run_tests_ex53()
+    run_tests_ex54()

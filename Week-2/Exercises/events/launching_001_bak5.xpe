@@ -1,0 +1,97 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Wed Sep 24 2025 02:53:19
+#sha1: 2addbd
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2514,design,log,
+#design: #exp: Two squares
+#design: block_cnt,block_id,trial_cnt,trial_id
+2514,design,logged,
+2514,Experiment,started
+2515,Stimulus,presented,0
+2516,Stimulus,presented,1
+2517,Stimulus,presented,0
+2531,Stimulus,presented,1
+2562,Stimulus,presented,0
+2564,Stimulus,presented,1
+2594,Stimulus,presented,0
+2595,Stimulus,presented,1
+2626,Stimulus,presented,0
+2628,Stimulus,presented,1
+2658,Stimulus,presented,0
+2660,Stimulus,presented,1
+2690,Stimulus,presented,0
+2691,Stimulus,presented,1
+2722,Stimulus,presented,0
+2723,Stimulus,presented,1
+2754,Stimulus,presented,0
+2755,Stimulus,presented,1
+2786,Stimulus,presented,0
+2787,Stimulus,presented,1
+2818,Stimulus,presented,0
+2819,Stimulus,presented,1
+2849,Stimulus,presented,0
+2851,Stimulus,presented,1
+2881,Stimulus,presented,0
+2882,Stimulus,presented,1
+2913,Stimulus,presented,0
+2914,Stimulus,presented,1
+2945,Stimulus,presented,0
+2946,Stimulus,presented,1
+2977,Stimulus,presented,0
+2978,Stimulus,presented,1
+3009,Stimulus,presented,0
+3010,Stimulus,presented,1
+3041,Stimulus,presented,0
+3042,Stimulus,presented,1
+3072,Stimulus,presented,0
+3074,Stimulus,presented,1
+3104,Stimulus,presented,0
+3105,Stimulus,presented,1
+3136,Stimulus,presented,0
+3137,Stimulus,presented,1
+3167,Stimulus,presented,0
+3169,Stimulus,presented,1
+3199,Stimulus,presented,0
+3200,Stimulus,presented,1
+3231,Stimulus,presented,0
+3232,Stimulus,presented,1
+3263,Stimulus,presented,0
+3264,Stimulus,presented,1
+3295,Stimulus,presented,0
+3296,Stimulus,presented,1
+3326,Stimulus,presented,0
+3328,Stimulus,presented,1
+3358,Stimulus,presented,0
+3359,Stimulus,presented,1
+3390,Stimulus,presented,0
+3391,Stimulus,presented,1
+3422,Stimulus,presented,0
+3423,Stimulus,presented,1
+3453,Stimulus,presented,0
+3454,Stimulus,presented,1
+3485,Stimulus,presented,0
+3486,Stimulus,presented,1
+3517,Stimulus,presented,0
+3518,Stimulus,presented,1
+3549,Stimulus,presented,0
+3550,Stimulus,presented,1
+3581,Stimulus,presented,0
+3582,Stimulus,presented,1
+3613,Stimulus,presented,0
+3614,Stimulus,presented,1
+3645,Stimulus,presented,0
+3646,Stimulus,presented,1
+3677,Stimulus,presented,0
+3678,Stimulus,presented,1
+3709,Stimulus,presented,0
+3710,Stimulus,presented,1
+3741,Stimulus,presented,0
+3742,Stimulus,presented,1
+3772,Stimulus,presented,0
+3773,Stimulus,presented,1
+3804,stderr,received,'Traceback (most recent call last):'
+3805,stderr,received,'  File "C:\\Users\\lucie\\documents\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\launching.py", line 27, in <module>\n    while square_right.position[0] < square_right.position[400,0]:\n                                     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^'
+3805,stderr,received,'TypeError: list indices must be integers or slices, not tuple'
