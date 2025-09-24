@@ -21,7 +21,7 @@ while square_left.position[0] < -50:
     square_left.move((5, 0))        # move 5 pixels to the right
     square_left.present(clear=True, update=False)
     square_right.present(clear=False, update=True)
-    exp.clock.wait(15) 
+    exp.clock.wait(15) # a enlever car peut etre deletère pour la suite
 
 while square_right.position[0] < 400 :
     square_right.move((5, 0))        # move 5 pixels to the right
