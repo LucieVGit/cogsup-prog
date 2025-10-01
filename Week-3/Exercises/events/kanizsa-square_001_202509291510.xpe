@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Sep 29 2025 15:10:06
+#sha1: c72899
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+12234,design,log,
+#design: #exp: Kanizsa Square
+#design: block_cnt,block_id,trial_cnt,trial_id
+12234,design,logged,
+12234,Experiment,started
+12808,Stimulus,presented,0
+29842,stderr,received,'Traceback (most recent call last):'
+29861,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-3\\Exercises\\kanizsa-square.py", line 29, in <module>\n    circle1.present(clear=False, update=False)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+29861,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1171, in present\n    self.preload(inhibit_ogl_compress=True)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+29861,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1059, in preload\n    self._get_surface(),\n    ~~~~~~~~~~~~~~~~~^^'
+29862,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 490, in _get_surface\n    tmp = self._create_surface()'
+29862,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_ellipse.py", line 137, in _create_surface\n    size, pygame.SRCALPHA).convert_alpha()\n                           ~~~~~~~~~~~~~^^'
+29862,stderr,received,'pygame.error: Out of memory'

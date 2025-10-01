@@ -1,0 +1,10 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Sep 29 2025 14:57:54
+#sha1: 4c6721
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+745,stderr,received,'Traceback (most recent call last):'
+745,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-3\\Exercises\\kanizsa-square.py", line 19, in <module>\n    circle1 = stimuli.Circle(size=(c_size,c_size), colour=(colour.BLACK), position=(-width//4,height//4))\n                                                           ^^^^^^^^^^^^'
+745,stderr,received,"AttributeError: module 'expyriment.misc.constants' has no attribute 'BLACK'. Did you mean: 'C_BLACK'?"

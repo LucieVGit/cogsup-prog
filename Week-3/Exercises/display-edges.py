@@ -6,7 +6,7 @@ from expyriment import design, control, stimuli
 control.set_develop_mode()
 
 # Initialize the experiment
-exp = expyriment.design.Experiment()
+exp = design.Experiment()
 control.initialize(exp)
 
 width, height = exp.screen.size 
@@ -18,7 +18,7 @@ square2 = stimuli.Rectangle(size=(size,size), colour=(225,0,0), position=(width/
 square3 = stimuli.Rectangle(size=(size,size), colour=(225,0,0), position=(-width//2 + size //2,-height//2 + size //2), line_width=5)
 square4 = stimuli.Rectangle(size=(size,size), colour=(225,0,0), position=(width//2 - size //2,height//2 - size //2), line_width=5)
 
-expyriment.control.start()
+control.start()
 
 # Conduction of experiment
 
@@ -30,6 +30,6 @@ square4.present(clear=False, update=True)
 # Leave it on-screen until a key is pressed
 exp.keyboard.wait()
 
-expyriment.control.end()
+control.end()
 
 # voir sur git pour automatiser les positions

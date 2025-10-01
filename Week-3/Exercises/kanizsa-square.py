@@ -2,36 +2,39 @@ import expyriment
 
 # Import the main modules of expyriment
 from expyriment import design, control, stimuli
+from expyriment.misc.constants import C_WHITE, C_BLACK, C_DARKGREY
 
 control.set_develop_mode()
 
 # Initialize the experiment
-exp = expyriment.design.Experiment(background_colour(c_grey))
+exp = design.Experiment(name = "Kanizsa Square", background_colour = C_DARKGREY)
 control.initialize(exp)
 
 width, height = exp.screen.size 
 
 # Stimuli and design
-s_size = int(width * 100 // 25) 
-c_size = int(width * 100 // 5) 
-square = stimuli.Rectangle(size=(size,size), colour=(225,0,0), position=(-width//2,height//2), line_width=5)
-circle1 = stimuli.Circle(size=(size,size), colour=(225,0,0), position=(-width//2,height//2), line_width=5)
-circle2 = stimuli.Circle(size=(size,size), colour=(225,0,0), position=(width//2,-height//2), line_width=5)
-circle3 = stimuli.Circle(size=(size,size), colour=(225,0,0), position=(-width//2,-height//2), line_width=5)
-circle4 = stimuli.Rectangle(size=(size,size), colour=(225,0,0), position=(width//2,height//2), line_width=5)
+s_size = int(height//2) 
+c_size = int(width * 0.05) 
+square = stimuli.Rectangle(size=(s_size,s_size), colour=(C_DARKGREY), position=(0, 0))
+circle1 = stimuli.Circle(radius=(c_size), colour=(C_BLACK), position=(-height//4, height//4))
+circle2 = stimuli.Circle(radius=(c_size), colour=(C_WHITE), position=(height//4, -height//4))
+circle3 = stimuli.Circle(radius=(c_size), colour=(C_WHITE), position=(-height//4, -height//4))
+circle4 = stimuli.Circle(radius=(c_size), colour=(C_BLACK), position=(height//4, height//4))
 
-expyriment.control.start()
+control.start(subject_id=1)
 
 # Conduction of experiment
 
-square1.present(clear=True, update=False)
-square2.present(clear=False, update=False)
-square3.present(clear=False, update=False)
-square4.present(clear=False, update=True)
+
+circle1.present(clear=True, update=False)
+circle2.present(clear=False, update=False)
+circle3.present(clear=False, update=False)
+circle4.present(clear=False, update=False)
+square.present(clear=False, update=True)
 
 # Leave it on-screen until a key is pressed
 exp.keyboard.wait()
 
-expyriment.control.end()
+control.end()
 
 # voir sur git pour automatiser les positions

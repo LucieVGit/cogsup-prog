@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Wed Oct 01 2025 16:15:24
+#sha1: 06aa94
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+954,Stimulus,presented,1
+955,Stimulus,presented,2
+957,Stimulus,presented,3
+958,Stimulus,presented,4
+960,Stimulus,presented,0
+11571,Keyboard,received,32,wait
+11571,Experiment,ended
+11574,Stimulus,presented,5
+11744,stderr,received,'Traceback (most recent call last):'
+11744,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-3\\Exercises\\kanizsa-rectangle.py", line 60, in <module>\n    s_size = int(height//2)\n                 ^^^^^^'
+11744,stderr,received,"NameError: name 'height' is not defined"
