@@ -1,0 +1,63 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Oct 06 2025 15:50:17
+#sha1: 2e869a
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1826,design,log,
+#design: #exp: Hermann grid
+#design: block_cnt,block_id,trial_cnt,trial_id
+1826,design,logged,
+1826,Experiment,started
+1828,Stimulus,presented,0
+1828,Stimulus,presented,1
+1829,Stimulus,presented,2
+1830,Stimulus,presented,3
+1830,Stimulus,presented,4
+1831,Stimulus,presented,5
+1831,Stimulus,presented,6
+1831,Stimulus,presented,7
+1832,Stimulus,presented,8
+1832,Stimulus,presented,9
+1833,Stimulus,presented,10
+1833,Stimulus,presented,11
+1834,Stimulus,presented,12
+1834,Stimulus,presented,13
+1834,Stimulus,presented,14
+1835,Stimulus,presented,15
+1835,Stimulus,presented,16
+1836,Stimulus,presented,17
+1836,Stimulus,presented,18
+1837,Stimulus,presented,19
+1837,Stimulus,presented,20
+1838,Stimulus,presented,21
+1838,Stimulus,presented,22
+1839,Stimulus,presented,23
+1839,Stimulus,presented,24
+1840,Stimulus,presented,25
+1840,Stimulus,presented,26
+1841,Stimulus,presented,27
+1841,Stimulus,presented,28
+1842,Stimulus,presented,29
+1842,Stimulus,presented,30
+1842,Stimulus,presented,31
+1843,Stimulus,presented,32
+1843,Stimulus,presented,33
+1844,Stimulus,presented,34
+1845,Stimulus,presented,35
+1845,Stimulus,presented,36
+1846,Stimulus,presented,37
+1846,Stimulus,presented,38
+1847,Stimulus,presented,39
+1847,Stimulus,presented,40
+1848,Stimulus,presented,41
+1848,Stimulus,presented,42
+1849,Stimulus,presented,43
+1849,Stimulus,presented,44
+1849,Stimulus,presented,45
+1850,Stimulus,presented,46
+1850,Stimulus,presented,47
+1851,Stimulus,presented,48
+55247,Keyboard,received,32,wait
+55247,Experiment,ended

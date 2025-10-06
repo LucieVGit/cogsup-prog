@@ -1,0 +1,63 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Oct 06 2025 15:52:25
+#sha1: f7ee50
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1997,design,log,
+#design: #exp: Hermann grid
+#design: block_cnt,block_id,trial_cnt,trial_id
+1997,design,logged,
+1997,Experiment,started
+1998,Stimulus,presented,0
+1999,Stimulus,presented,1
+2000,Stimulus,presented,2
+2001,Stimulus,presented,3
+2001,Stimulus,presented,4
+2001,Stimulus,presented,5
+2002,Stimulus,presented,6
+2002,Stimulus,presented,7
+2003,Stimulus,presented,8
+2003,Stimulus,presented,9
+2004,Stimulus,presented,10
+2004,Stimulus,presented,11
+2005,Stimulus,presented,12
+2005,Stimulus,presented,13
+2006,Stimulus,presented,14
+2007,Stimulus,presented,15
+2007,Stimulus,presented,16
+2008,Stimulus,presented,17
+2008,Stimulus,presented,18
+2008,Stimulus,presented,19
+2009,Stimulus,presented,20
+2009,Stimulus,presented,21
+2010,Stimulus,presented,22
+2010,Stimulus,presented,23
+2011,Stimulus,presented,24
+2011,Stimulus,presented,25
+2011,Stimulus,presented,26
+2012,Stimulus,presented,27
+2012,Stimulus,presented,28
+2013,Stimulus,presented,29
+2014,Stimulus,presented,30
+2014,Stimulus,presented,31
+2015,Stimulus,presented,32
+2015,Stimulus,presented,33
+2016,Stimulus,presented,34
+2016,Stimulus,presented,35
+2017,Stimulus,presented,36
+2017,Stimulus,presented,37
+2018,Stimulus,presented,38
+2018,Stimulus,presented,39
+2018,Stimulus,presented,40
+2019,Stimulus,presented,41
+2019,Stimulus,presented,42
+2020,Stimulus,presented,43
+2021,Stimulus,presented,44
+2021,Stimulus,presented,45
+2022,Stimulus,presented,46
+2022,Stimulus,presented,47
+2023,Stimulus,presented,48
+8766,Keyboard,received,32,wait
+8766,Experiment,ended

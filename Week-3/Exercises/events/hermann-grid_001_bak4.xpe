@@ -1,0 +1,39 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Oct 06 2025 15:46:05
+#sha1: ff9f4e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1780,design,log,
+#design: #exp: Hermann grid
+#design: block_cnt,block_id,trial_cnt,trial_id
+1780,design,logged,
+1780,Experiment,started
+1781,Stimulus,presented,0
+1782,Stimulus,presented,1
+1783,Stimulus,presented,2
+1784,Stimulus,presented,3
+1784,Stimulus,presented,4
+1785,Stimulus,presented,5
+1786,Stimulus,presented,6
+1787,Stimulus,presented,7
+1788,Stimulus,presented,8
+1789,Stimulus,presented,9
+1790,Stimulus,presented,10
+1790,Stimulus,presented,11
+1791,Stimulus,presented,12
+1792,Stimulus,presented,13
+1793,Stimulus,presented,14
+1793,Stimulus,presented,15
+1794,Stimulus,presented,16
+1795,Stimulus,presented,17
+1796,Stimulus,presented,18
+1797,Stimulus,presented,19
+1798,Stimulus,presented,20
+1798,Stimulus,presented,21
+1799,Stimulus,presented,22
+1799,Stimulus,presented,23
+1800,Stimulus,presented,24
+32604,Keyboard,received,32,wait
+32604,Experiment,ended
