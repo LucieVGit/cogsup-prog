@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Oct 06 2025 14:32:14
+#sha1: 792f2e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3318,design,log,
+#design: #exp: Triangle and hexagon
+#design: block_cnt,block_id,trial_cnt,trial_id
+3318,design,logged,
+3318,Experiment,started
+3320,Stimulus,presented,2
+3321,Stimulus,presented,0
+3322,Stimulus,presented,1
+3322,Stimulus,presented,5
+3323,Stimulus,presented,3
+3324,Stimulus,presented,4
+7243,Keyboard,received,32,wait
+7243,Experiment,ended

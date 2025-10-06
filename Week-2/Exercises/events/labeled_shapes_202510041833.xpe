@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 04 2025 18:33:09
+#sha1: 94294f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+961,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000001A4AEA3E980>'
+961,stderr,received,'Traceback (most recent call last):'
+961,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+973,stderr,received,'    if self._compression_filename is not None:'
+973,stderr,received,"AttributeError: 'Shape' object has no attribute '_compression_filename'"
+974,stderr,received,'Traceback (most recent call last):'
+974,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\labeled_shapes.py", line 13, in <module>\n    triangle = stimuli.Shape(vertices_triangle=[(50,50)], colour = (128,0,128), position = (-125, 0))'
+974,stderr,received,"TypeError: Shape.__init__() got an unexpected keyword argument 'vertices_triangle'"

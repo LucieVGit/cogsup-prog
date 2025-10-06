@@ -1,0 +1,14 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 04 2025 19:26:29
+#sha1: bc634b
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+800,stderr,received,'Traceback (most recent call last):'
+801,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-2\\Exercises\\labeled_shapes.py", line 19, in <module>\n    text_t = stimuli.TextLine(triangle, position=(-125, 50), text_colour=(225,225,225))'
+801,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_textline.py", line 71, in __init__\n    Visual.__init__(self, position, log_comment=text)\n    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+801,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 235, in __init__\n    Stimulus.__init__(self, log_comment)\n    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^'
+801,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_stimulus.py", line 46, in __init__\n    log_txt = "{0},{1}".format(log_txt, bytes_to_unicode(log_comment))\n                                        ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^'
+801,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\misc\\_miscellaneous.py", line 211, in bytes_to_unicode\n    u = s.decode(LOCALE_ENC)\n        ^^^^^^^^'
+801,stderr,received,"AttributeError: 'Shape' object has no attribute 'decode'"
