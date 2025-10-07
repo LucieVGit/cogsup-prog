@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Tue Oct 07 2025 16:35:10
+#sha1: 1b5484
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2493,Keyboard,received,32,wait
+2496,Stimulus,presented,0
+2496,stderr,received,'Traceback (most recent call last):'
+2497,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\timing_puzzle.py", line 21, in <module>\n    dt = exp.clock.time - t0\n         ~~~~~~~~~~~~~~~^~~~'
+2497,stderr,received,"TypeError: unsupported operand type(s) for -: 'int' and 'NoneType'"

@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Tue Oct 07 2025 18:04:56
+#sha1: 78f922
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+770,Stimulus,presented,0
+770,Stimulus,presented,1
+773,stderr,received,'Traceback (most recent call last):'
+773,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 49, in <module>\n    present_for(stims, 500)\n    ~~~~~~~~~~~^^^^^^^^^^^^'
+774,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\drawing_functions.py", line 24, in present_for\n    exp.clock.wait(t - dt)\n                       ^^'
+774,stderr,received,"NameError: name 'dt' is not defined. Did you mean: 't'?"

@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Tue Oct 07 2025 16:21:54
+#sha1: 03c9ef
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2134,Keyboard,received,32,wait
+2137,Stimulus,presented,0
+2137,stderr,received,'Traceback (most recent call last):'
+2138,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\timing_puzzle.py", line 15, in <module>\n    exp.clock.time = exp.clock.time\n    ^^^^^^^^^^^^^^'
+2138,stderr,received,"AttributeError: property 'time' of 'Clock' object has no setter"
