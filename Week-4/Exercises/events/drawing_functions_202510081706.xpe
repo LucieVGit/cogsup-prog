@@ -1,0 +1,50 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 17:06:15
+#sha1: d806e9
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+843,Stimulus,presented,0
+843,Stimulus,presented,1
+1343,Stimulus,presented,0
+1343,Stimulus,presented,2
+1843,Stimulus,presented,0
+1843,Stimulus,presented,3
+2343,Stimulus,presented,0
+2343,Stimulus,presented,4
+2843,Stimulus,presented,0
+2843,Stimulus,presented,5
+3343,Stimulus,presented,0
+3343,Stimulus,presented,6
+3843,Stimulus,presented,0
+3843,Stimulus,presented,7
+4343,Stimulus,presented,0
+4343,Stimulus,presented,8
+4844,Stimulus,presented,0
+4844,Stimulus,presented,9
+5343,Stimulus,presented,0
+5343,Stimulus,presented,10
+5843,Stimulus,presented,0
+5843,Stimulus,presented,11
+6344,Stimulus,presented,0
+6344,Stimulus,presented,12
+6844,Stimulus,presented,0
+6844,Stimulus,presented,13
+7344,Stimulus,presented,0
+7344,Stimulus,presented,14
+7844,Stimulus,presented,0
+7844,Stimulus,presented,15
+8344,Stimulus,presented,0
+8344,Stimulus,presented,16
+8844,Stimulus,presented,0
+8844,Stimulus,presented,17
+9344,Stimulus,presented,0
+9344,Stimulus,presented,18
+9844,Stimulus,presented,0
+9844,Stimulus,presented,19
+10344,Stimulus,presented,0
+10344,Stimulus,presented,20
+10844,stdout,received,'[500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 500, 501, 500, 500, 500, 500, 500, 500, 500]'
+10844,Experiment,ended
+10850,Stimulus,presented,21

@@ -1,59 +1,62 @@
 from expyriment import design, control, stimuli
 import random
 
+def to_frames(t):
+    return math.ceil(t / MSPF) # tronque le temps t pour en faire un frame
+
+def to_time(num_frames):
+    return num_frames * MSPF # nombre de frames que l'on veut faire apparaître le stim
+
 def load(stims):
     for stim in stims:
         stim.preload()
 
-def timed_draw(stims):
+def timed_draw(exp, stims):
     t0 = exp.clock.time
     exp.screen.clear()
     for stim in stims:
         stim.present(clear=False, update=False)
     exp.screen.update()
-    t1 = exp.clock.time
-    dt = t1-t0 / 1000
-    return (dt)
-    # return the time it took to draw
+    elapsed = exp.clock.time - t0
+    return elapsed
+# return the time it took to draw
 
 def present_for(stims, t):
-    t0_bis = exp.clock.time
-    exp.screen.clear()
-    for stim in stims:
-        stim.present(clear=False, update=False)
-    exp.screen.update()
-    t1_bis = exp.clock.time
-    dt_bis = t1_bis-t0_bis 
-    exp.clock.wait(t - dt_bis)
-    return (dt_bis)
+    if num_frames == 0:
+        return
+    
+    dt = timed_draw(exp, stims)
+    if dt > 0:
+        t = to_time(num_frames)
+        exp.clock.wait(t - dt)
 
 
-""" Test functions """
-exp = design.Experiment()
+# """ Test functions """
+# exp = design.Experiment()
 
-control.set_develop_mode()
-control.initialize(exp)
+# control.set_develop_mode()
+# control.initialize(exp)
 
-fixation = stimuli.FixCross()
-load([fixation])
+# fixation = stimuli.FixCross()
+# load([fixation])
 
-n = 20
-positions = [(random.randint(-300, 300), random.randint(-300, 300)) for _ in range(n)]
-squares = [stimuli.Rectangle(size=(50, 50), position = pos) for pos in positions]
-load(squares)
+# n = 20
+# positions = [(random.randint(-300, 300), random.randint(-300, 300)) for _ in range(n)]
+# squares = [stimuli.Rectangle(size=(50, 50), position = pos) for pos in positions]
+# load(squares)
 
-durations = []
+# durations = []
 
-t0 = exp.clock.time
-for square in squares:
-    if not square.is_preloaded:
-        print("Preloading function not implemneted correctly.")
-    stims = [fixation, square] 
-    present_for(stims, 500)
-    t1 = exp.clock.time
-    durations.append(t1-t0)
-    t0 = t1
+# t0 = exp.clock.time
+# for square in squares:
+#     if not square.is_preloaded:
+#         print("Preloading function not implemneted correctly.")
+#     stims = [fixation, square] 
+#     present_for(stims, 500)
+#     t1 = exp.clock.time
+#     durations.append(t1-t0)
+#     t0 = t1
 
-print(durations)
+# print(durations)
 
-control.end()
+# control.end()
