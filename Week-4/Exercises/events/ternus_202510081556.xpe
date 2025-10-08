@@ -1,0 +1,10 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 15:56:27
+#sha1: f0f9c2
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+743,stderr,received,'Traceback (most recent call last):'
+744,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 32, in <module>\n    move1_circle, left_circle, right_circle, move2_circle, yellow_tag1, red_tag, blue_tag, yellow_tag2 = run_trial(radius = 75, ISI = display, color_tags = True)\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+744,stderr,received,'ValueError: too many values to unpack (expected 8)'

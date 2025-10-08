@@ -1,0 +1,10 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Wed Oct 08 2025 15:52:19
+#sha1: 3c5aab
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+739,stderr,received,'Traceback (most recent call last):'
+739,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-4\\Exercises\\ternus.py", line 35, in <module>\n    stim_list1.remove(move2_circle)\n                      ^^^^^^^^^^^^'
+739,stderr,received,"NameError: name 'move2_circle' is not defined"
