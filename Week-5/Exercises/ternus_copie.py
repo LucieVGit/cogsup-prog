@@ -41,9 +41,14 @@ stim_list2 = [left_circle, right_circle, move2_circle, red_tag, blue_tag, yellow
 load(stim_list1)
 load(stim_list2)
 
-present_for(stim_list1, ISI)
-present_for(stim_list2, ISI)
+control.start(exp)
 
+for i in range(25):
+    present_for(exp, stim_list1, ISI)
+    present_for(exp, stim_list2, ISI)
+
+    if exp.keyboard.check(K_SPACE): # inside the loop
+        break
 
 exp.keyboard.wait()
 control.end()
