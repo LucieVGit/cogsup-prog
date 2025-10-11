@@ -1,5 +1,9 @@
 from expyriment import design, control, stimuli
 import random
+import math
+
+FPS  = 60
+MSPF = 1000 / FPS # ms per frame
 
 def to_frames(t):
     return math.ceil(t / MSPF) # tronque le temps t pour en faire un frame
@@ -13,15 +17,18 @@ def load(stims):
 
 def timed_draw(exp, stims):
     t0 = exp.clock.time
+
     exp.screen.clear()
     for stim in stims:
         stim.present(clear=False, update=False)
     exp.screen.update()
+
     elapsed = exp.clock.time - t0
     return elapsed
 # return the time it took to draw
 
-def present_for(stims, t):
+def present_for(exp, stims, t):
+    num_frames = to_frames(t)
     if num_frames == 0:
         return
     

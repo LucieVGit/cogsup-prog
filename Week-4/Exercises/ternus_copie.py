@@ -1,5 +1,6 @@
 from expyriment import design, control, stimuli
 from expyriment.misc.constants import K_SPACE, C_WHITE, C_BLACK, C_BLUE, C_YELLOW, C_RED
+from drawing_functions import *
 
 exp = design.Experiment(name = "Ternus illusion", background_colour = C_WHITE)
 
@@ -36,24 +37,18 @@ stim_list1 = [move1_circle, left_circle, right_circle, yellow_tag1, red_tag, blu
 stim_list2 = [left_circle, right_circle, move2_circle, red_tag, blue_tag, yellow_tag2]
 
 # DRAW
+
+load(stim_list1)
+load(stim_list2)
+
+control.start(exp)
+
 for i in range(25):
-    exp.screen.clear()
-    for stim in stim_list1:
-        stim.present(False, False)
-    exp.screen.update()
-
-    exp.clock.wait(ISI)
-
-    exp.screen.clear()
-    for stim in stim_list2:
-        stim.present(False, False)
-    exp.screen.update()
-
-    exp.clock.wait(ISI)
+    present_for(exp, stim_list1, ISI)
+    present_for(exp, stim_list2, ISI)
 
     if exp.keyboard.check(K_SPACE): # inside the loop
         break
-
 
 exp.keyboard.wait()
 control.end()

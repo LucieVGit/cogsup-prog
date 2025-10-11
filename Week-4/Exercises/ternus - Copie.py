@@ -38,15 +38,11 @@ stim_list2 = [left_circle, right_circle, move2_circle, red_tag, blue_tag, yellow
 
 # DRAW
 
-    exp.screen.clear()
-    for stim in stim_list2:
-        stim.present(False, False)
-    exp.screen.update()
+load(stim_list1)
+load(stim_list2)
 
-    exp.clock.wait(ISI)
-
-    if exp.keyboard.check(K_SPACE): # inside the loop
-        break
+present_for(stim_list1, ISI)
+present_for(stim_list2, ISI)
 
 
 exp.keyboard.wait()

@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 19:58:37
+#sha1: 3a836c
+#modules: drawing_functions.py (f7a6b1)
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+844,Stimulus,presented,0
+845,Stimulus,presented,1
+845,Stimulus,presented,2
+845,Stimulus,presented,4
+845,Stimulus,presented,5
+845,Stimulus,presented,6
+1343,Stimulus,presented,1
+1343,Stimulus,presented,2
+1343,Stimulus,presented,3
+1344,Stimulus,presented,5
+1344,Stimulus,presented,6
+1344,Stimulus,presented,7
+92550,Keyboard,received,32,wait
+92550,Experiment,ended
+92555,Stimulus,presented,8
