@@ -1,0 +1,64 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 00:02:01
+#sha1: d62fd2
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+21481,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+21481,design,logged,
+21481,Experiment,started
+21512,Stimulus,presented,0
+51620,Keyboard,received,32,wait
+51630,Stimulus,presented,1
+51631,Stimulus,presented,2
+52788,Keyboard,received,1073741903,wait
+52795,Stimulus,presented,3
+52796,Stimulus,presented,4
+53071,Keyboard,received,1073741903,wait
+53081,Stimulus,presented,5
+53082,Stimulus,presented,6
+53712,Keyboard,received,1073741906,wait
+53721,Stimulus,presented,7
+53722,Stimulus,presented,8
+53938,Keyboard,received,1073741906,wait
+53947,Stimulus,presented,9
+53948,Stimulus,presented,10
+54159,Keyboard,received,1073741906,wait
+54169,Stimulus,presented,11
+54170,Stimulus,presented,12
+54488,Keyboard,received,1073741905,wait
+54495,Stimulus,presented,13
+54496,Stimulus,presented,14
+54713,Keyboard,received,1073741905,wait
+54722,Stimulus,presented,15
+54723,Stimulus,presented,16
+54986,Keyboard,received,1073741903,wait
+54998,Stimulus,presented,17
+54998,Stimulus,presented,18
+55207,Keyboard,received,1073741903,wait
+55218,Stimulus,presented,19
+55219,Stimulus,presented,20
+55518,Keyboard,received,1073741906,wait
+55528,Stimulus,presented,21
+55529,Stimulus,presented,22
+55822,Keyboard,received,1073741904,wait
+55831,Stimulus,presented,23
+55832,Stimulus,presented,24
+56026,Keyboard,received,1073741905,wait
+56035,Stimulus,presented,25
+56036,Stimulus,presented,26
+56205,Keyboard,received,1073741905,wait
+56215,Stimulus,presented,27
+56216,Stimulus,presented,28
+56756,Keyboard,received,32,wait
+56756,Experiment,ended
+56776,Stimulus,presented,29
+59988,stdout,received,"Warning: Stimulus created before initializing (experiment defaults won't apply)!"
+59989,stderr,received,'Traceback (most recent call last):'
+59990,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 77, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+59990,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 24, in run_trial\n    fixation.preload()\n    ~~~~~~~~~~~~~~~~^^'
+59990,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1054, in preload\n    raise RuntimeError(message)'
+59990,stderr,received,"RuntimeError: Can't preload stimulus. Expyriment needs to be initialised before preloading a stimulus."

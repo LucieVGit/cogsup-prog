@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 20:44:09
+#sha1: 942959
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+6095,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+6095,design,logged,
+6095,Experiment,started
+6095,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000002915B082A20>'
+6095,stderr,received,'Traceback (most recent call last):'
+6095,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+6120,stderr,received,'    if self._compression_filename is not None:'
+6120,stderr,received,"AttributeError: 'TextLine' object has no attribute '_compression_filename'"
+6121,stderr,received,'Traceback (most recent call last):'
+6121,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 62, in <module>\n    text_t = stimuli.TextLine("heading", "text", heading_size = 30, heading_bold= True, heading_colour=(153,204,0), text_size= 15, text_bold= False, text_colour=(128,0,128))'
+6122,stderr,received,"TypeError: TextLine.__init__() got an unexpected keyword argument 'heading_size'"

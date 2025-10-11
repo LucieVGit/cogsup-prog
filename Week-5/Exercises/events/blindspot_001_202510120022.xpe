@@ -1,0 +1,25 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 00:22:54
+#sha1: 73e6af
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+12126,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+12126,design,logged,
+12127,Experiment,started
+12154,Stimulus,presented,0
+16471,Keyboard,received,32,wait
+16479,Stimulus,presented,1
+16480,Stimulus,presented,2
+17749,Keyboard,received,1073741903,wait
+21854,Experiment,paused
+21857,Stimulus,presented,3
+25134,Keyboard,received,n,wait_char
+25134,Experiment,resumed
+25134,Keyboard,received,None,wait
+25136,stderr,received,'Traceback (most recent call last):'
+25142,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 83, in <module>\n    exp.add_data_variable_names([Eye, Radius, Coordinates])\n                                 ^^^'
+25142,stderr,received,"NameError: name 'Eye' is not defined. Did you mean: 'eye'?"

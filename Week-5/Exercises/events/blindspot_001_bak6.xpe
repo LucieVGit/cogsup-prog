@@ -1,0 +1,25 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 20:48:33
+#sha1: 22b453
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+9957,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+9957,design,logged,
+9957,Experiment,started
+47884,Keyboard,received,32,wait
+47892,Stimulus,presented,1
+47898,Stimulus,presented,2
+51816,Keyboard,received,1073741905,wait
+51817,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000001AF7FBE2A20>'
+51817,stderr,received,'Traceback (most recent call last):'
+51817,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+51818,stderr,received,'    if self._compression_filename is not None:'
+51818,stderr,received,"AttributeError: 'Circle' object has no attribute '_compression_filename'"
+51819,stderr,received,'Traceback (most recent call last):'
+51820,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 65, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+51820,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 33, in run_trial\n    stimuli.Circle(position=(x, y - 20))\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^'
+51820,stderr,received,"TypeError: Circle.__init__() missing 1 required positional argument: 'radius'"

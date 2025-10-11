@@ -1,0 +1,77 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 22:12:27
+#sha1: 94d80a
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2089,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2089,design,logged,
+2089,Experiment,started
+2097,Stimulus,presented,0
+2811,Keyboard,received,32,wait
+2819,Stimulus,presented,1
+2820,Stimulus,presented,2
+3902,Keyboard,received,1073741905,wait
+3913,Stimulus,presented,3
+3914,Stimulus,presented,4
+4139,Keyboard,received,1073741905,wait
+4149,Stimulus,presented,5
+4150,Stimulus,presented,6
+4274,Keyboard,received,1073741905,wait
+4284,Stimulus,presented,7
+4285,Stimulus,presented,8
+4986,Keyboard,received,1073741905,wait
+4993,Stimulus,presented,9
+4994,Stimulus,presented,10
+5228,Keyboard,received,1073741904,wait
+5235,Stimulus,presented,11
+5236,Stimulus,presented,12
+5380,Keyboard,received,1073741904,wait
+5389,Stimulus,presented,13
+5390,Stimulus,presented,14
+5547,Keyboard,received,1073741904,wait
+5556,Stimulus,presented,15
+5557,Stimulus,presented,16
+5724,Keyboard,received,1073741904,wait
+5732,Stimulus,presented,17
+5734,Stimulus,presented,18
+5901,Keyboard,received,1073741904,wait
+5911,Stimulus,presented,19
+5911,Stimulus,presented,20
+6403,Keyboard,received,49,wait
+6417,Stimulus,presented,21
+6418,Stimulus,presented,22
+6539,Keyboard,received,49,wait
+6550,Stimulus,presented,23
+6551,Stimulus,presented,24
+6676,Keyboard,received,49,wait
+6687,Stimulus,presented,25
+6688,Stimulus,presented,26
+6866,Keyboard,received,50,wait
+6875,Stimulus,presented,27
+6876,Stimulus,presented,28
+7172,Keyboard,received,50,wait
+7183,Stimulus,presented,29
+7185,Stimulus,presented,30
+7284,Keyboard,received,50,wait
+7294,Stimulus,presented,31
+7296,Stimulus,presented,32
+7462,Keyboard,received,50,wait
+7472,Stimulus,presented,33
+7473,Stimulus,presented,34
+7601,Keyboard,received,50,wait
+7610,Stimulus,presented,35
+7611,Stimulus,presented,36
+8188,Keyboard,received,103,wait
+8188,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x00000228E21BEAC0>'
+8189,stderr,received,'Traceback (most recent call last):'
+8189,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+8189,stderr,received,'    if self._compression_filename is not None:'
+8190,stderr,received,"AttributeError: 'TextLine' object has no attribute '_compression_filename'"
+8190,stderr,received,'Traceback (most recent call last):'
+8191,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 65, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+8191,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 50, in run_trial\n    text_error = stimuli.TextLine(\'Please press an arrow, 1 or 2 to move or change the size of the circle\', size= 30, colour= C_BLACK)'
+8191,stderr,received,"TypeError: TextLine.__init__() got an unexpected keyword argument 'size'"

@@ -1,0 +1,29 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 22:13:25
+#sha1: 8b2f22
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2247,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2247,design,logged,
+2247,Experiment,started
+2254,Stimulus,presented,0
+2638,Keyboard,received,32,wait
+2645,Stimulus,presented,1
+2646,Stimulus,presented,2
+4118,Keyboard,received,102,wait
+4121,Stimulus,presented,3
+45889,Keyboard,received,32,wait
+45900,Stimulus,presented,4
+45901,Stimulus,presented,5
+47322,Keyboard,received,32,wait
+47322,Experiment,ended
+47505,stdout,received,"Warning: Stimulus created before initializing (experiment defaults won't apply)!"
+47520,stderr,received,'Traceback (most recent call last):'
+47526,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 65, in <module>\n    while True :\n        ^^^^^^^^'
+47526,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 23, in run_trial\n    fixation.preload()\n    ~~~~~~~~~~~~~~~~^^'
+47526,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 1054, in preload\n    raise RuntimeError(message)'
+47526,stderr,received,"RuntimeError: Can't preload stimulus. Expyriment needs to be initialised before preloading a stimulus."

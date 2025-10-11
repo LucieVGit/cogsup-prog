@@ -1,0 +1,62 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 22:10:55
+#sha1: 7f1b30
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+1863,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+1863,design,logged,
+1863,Experiment,started
+1871,Stimulus,presented,0
+2659,Keyboard,received,32,wait
+2668,Stimulus,presented,1
+2670,Stimulus,presented,2
+3667,Keyboard,received,1073741906,wait
+3677,Stimulus,presented,3
+3677,Stimulus,presented,4
+3865,Keyboard,received,1073741906,wait
+3878,Stimulus,presented,5
+3879,Stimulus,presented,6
+3980,Keyboard,received,1073741906,wait
+3987,Stimulus,presented,7
+3988,Stimulus,presented,8
+4150,Keyboard,received,1073741904,wait
+4159,Stimulus,presented,9
+4160,Stimulus,presented,10
+4339,Keyboard,received,1073741904,wait
+4347,Stimulus,presented,11
+4348,Stimulus,presented,12
+4470,Keyboard,received,1073741904,wait
+4480,Stimulus,presented,13
+4482,Stimulus,presented,14
+4583,Keyboard,received,1073741904,wait
+4591,Stimulus,presented,15
+4592,Stimulus,presented,16
+6169,Keyboard,received,49,wait
+6179,Stimulus,presented,17
+6180,Stimulus,presented,18
+7026,Keyboard,received,49,wait
+7037,Stimulus,presented,19
+7038,Stimulus,presented,20
+8235,Keyboard,received,50,wait
+8245,Stimulus,presented,21
+8246,Stimulus,presented,22
+8407,Keyboard,received,50,wait
+8418,Stimulus,presented,23
+8419,Stimulus,presented,24
+8566,Keyboard,received,50,wait
+8574,Stimulus,presented,25
+8576,Stimulus,presented,26
+9249,Keyboard,received,122,wait
+9249,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x000001D31BACEAC0>'
+9249,stderr,received,'Traceback (most recent call last):'
+9249,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+9250,stderr,received,'    if self._compression_filename is not None:'
+9250,stderr,received,"AttributeError: 'TextScreen' object has no attribute '_compression_filename'"
+9250,stderr,received,'Traceback (most recent call last):'
+9251,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 65, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+9251,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 50, in run_trial\n    text_error = stimuli.TextScreen(\'Please press an arrow, 1 or 2 to move or change the size of the circle\', text_size= 30, text_bold= True, text_colour= C_BLACK)'
+9251,stderr,received,"TypeError: TextScreen.__init__() missing 1 required positional argument: 'text'"

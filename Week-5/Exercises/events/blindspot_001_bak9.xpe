@@ -1,0 +1,26 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 21:06:14
+#sha1: 5fdbbc
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+5203,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+5203,design,logged,
+5203,Experiment,started
+5209,Stimulus,presented,0
+9730,Keyboard,received,32,wait
+9741,Stimulus,presented,1
+9751,Stimulus,presented,2
+12237,Keyboard,received,1073741905,wait
+12237,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x0000024B8A23EAC0>'
+12237,stderr,received,'Traceback (most recent call last):'
+12237,stderr,received,'  File "C:\\Users\\lucie\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\expyriment\\stimuli\\_visual.py", line 266, in __del__'
+12238,stderr,received,'    if self._compression_filename is not None:'
+12238,stderr,received,"AttributeError: 'Circle' object has no attribute '_compression_filename'"
+12238,stderr,received,'Traceback (most recent call last):'
+12239,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 67, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+12239,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 33, in run_trial\n    stimuli.Circle(r = r, pos=(x, y - 20))\n    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^'
+12239,stderr,received,"TypeError: Circle.__init__() got an unexpected keyword argument 'r'"

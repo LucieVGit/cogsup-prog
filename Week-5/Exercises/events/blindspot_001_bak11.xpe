@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sat Oct 11 2025 21:26:22
+#sha1: 286182
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+2069,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+2069,design,logged,
+2069,Experiment,started
+2078,Stimulus,presented,0
+9100,Keyboard,received,32,wait
+9108,stderr,received,'Traceback (most recent call last):'
+9108,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 56, in <module>\n    run_trial()\n    ~~~~~~~~~^^'
+9108,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 23, in run_trial\n    circle = make_circle(r, pos)\n                         ^'
+9109,stderr,received,"UnboundLocalError: cannot access local variable 'r' where it is not associated with a value"
