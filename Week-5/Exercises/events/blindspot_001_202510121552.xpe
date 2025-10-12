@@ -1,0 +1,91 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 15:52:03
+#sha1: 3b469d
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+11007,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+11007,design,logged,
+11007,Experiment,started
+11036,Stimulus,presented,0
+12012,Keyboard,received,32,wait
+12022,Stimulus,presented,1
+12022,Stimulus,presented,2
+13046,Keyboard,received,1073741906,wait
+13056,Stimulus,presented,3
+13057,Stimulus,presented,4
+13359,Keyboard,received,1073741906,wait
+13368,Stimulus,presented,5
+13369,Stimulus,presented,6
+13551,Keyboard,received,1073741906,wait
+13561,Stimulus,presented,7
+13561,Stimulus,presented,8
+13944,Keyboard,received,1073741905,wait
+13954,Stimulus,presented,9
+13955,Stimulus,presented,10
+14152,Keyboard,received,1073741905,wait
+14158,Stimulus,presented,11
+14159,Stimulus,presented,12
+14521,Keyboard,received,1073741903,wait
+14530,Stimulus,presented,13
+14531,Stimulus,presented,14
+14853,Keyboard,received,1073741904,wait
+14863,Stimulus,presented,15
+14863,Stimulus,presented,16
+15066,Keyboard,received,1073741904,wait
+15075,Stimulus,presented,17
+15076,Stimulus,presented,18
+15246,Keyboard,received,1073741905,wait
+15253,Stimulus,presented,19
+15254,Stimulus,presented,20
+15475,Keyboard,received,1073741905,wait
+15485,Stimulus,presented,21
+15485,Stimulus,presented,22
+15734,Keyboard,received,1073741905,wait
+15744,Stimulus,presented,23
+15745,Stimulus,presented,24
+16435,Keyboard,received,1073741906,wait
+16445,Stimulus,presented,25
+16445,Stimulus,presented,26
+16900,Keyboard,received,50,wait
+16907,Stimulus,presented,27
+16907,Stimulus,presented,28
+17127,Keyboard,received,50,wait
+17136,Stimulus,presented,29
+17137,Stimulus,presented,30
+17314,Keyboard,received,50,wait
+17321,Stimulus,presented,31
+17322,Stimulus,presented,32
+17565,Keyboard,received,49,wait
+17573,Stimulus,presented,33
+17574,Stimulus,presented,34
+17796,Keyboard,received,49,wait
+17805,Stimulus,presented,35
+17805,Stimulus,presented,36
+17975,Keyboard,received,49,wait
+17982,Stimulus,presented,37
+17983,Stimulus,presented,38
+18147,Keyboard,received,49,wait
+18158,Stimulus,presented,39
+18159,Stimulus,presented,40
+18306,Keyboard,received,49,wait
+18317,Stimulus,presented,41
+18318,Stimulus,presented,42
+18817,Keyboard,received,100,wait
+18842,Stimulus,presented,43
+19491,Keyboard,received,1073741906,wait
+19499,Stimulus,presented,44
+19500,Stimulus,presented,45
+20096,Keyboard,received,1073741903,wait
+20106,Stimulus,presented,46
+20107,Stimulus,presented,47
+20425,Keyboard,received,1073741904,wait
+20437,Stimulus,presented,48
+20438,Stimulus,presented,49
+21131,Keyboard,received,32,wait
+21132,stderr,received,'Traceback (most recent call last):'
+21132,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 85, in <module>\n    results.append((eye, r, pos))\n                    ^^^'
+21133,stderr,received,"NameError: name 'eye' is not defined"

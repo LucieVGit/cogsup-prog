@@ -16,10 +16,6 @@ def make_circle(r, pos):
     c.preload()
     return c
 
-def key_to_name(key):
-        names = {K_DOWN : "down", K_UP : "up", K_LEFT : "left", K_RIGHT : "right", K_SPACE : "space", 49 : "1", 50 : "2"}
-        return names.get(key, str(key))
-
 """ Experiment """
 def run_trial(side):
     global r, pos
@@ -50,7 +46,6 @@ def run_trial(side):
     circle.present(False, True)
 
     key, _ = exp.keyboard.wait() # got help from chatGPT for this line
-    key_name = key_to_name(key)
 
     if key == K_DOWN:
         pos = (x, y - 20)
@@ -65,13 +60,13 @@ def run_trial(side):
     elif key == 50:
         r -= 10
     elif key == K_SPACE:
-        return "quit", pos, r, eye, key_name
+        return "quit", pos, r, eye # got help from chatGPT for this line
     else:
         text_error = stimuli.TextScreen('Error', 'Please press an arrow, 1 or 2 to move \nor change the size of the circle', heading_size = 100, heading_colour=(225,0,0), text_size= 30, text_colour= C_BLACK)
         text_error.present(clear=True, update=True)
         exp.keyboard.wait()
 
-    return "continue", pos, r, eye, key_name
+    return "continue", pos, r, eye
 
 control.start(subject_id=1)
 
@@ -85,18 +80,18 @@ exp.keyboard.wait()
 results = []
 
 while True :
-    status, pos, r, eye, key_name = run_trial(L)
-    results.append((eye, key_name, r, pos))
+    status, pos, r, eye = run_trial(L)
     if status == "quit": 
+        results.append((eye, r, pos))
         break
 
 while True :
-    status, pos, r, eye, key_name = run_trial(R)
-    results.append((eye, key_name, r, pos))
+    status, pos, r, eye = run_trial(R)
     if status == "quit":
+        results.append((eye, r, pos))
         break
 
-exp.add_data_variable_names(["Eye", "Key", "Radius", "Coordinates"])
+exp.add_data_variable_names(["Eye", "Radius", "Coordinates"])
 
 for entry in results:
     exp.data.add(entry)

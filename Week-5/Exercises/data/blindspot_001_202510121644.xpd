@@ -1,0 +1,40 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpd-file, coding: cp1252
+#date: Sun Oct 12 2025 16:44:17
+#--EXPERIMENT INFO
+#e mainfile: blindspot.py
+#e sha1: cef2a9
+#e modules: 
+#e Experiment: Blindspot
+#e no between subject factors
+#--SUBJECT INFO
+#s id: 1
+subject_id,Eye,Key,Radius,Coordinates
+1,left eye,up,75,"(600, 20)"
+1,left eye,up,75,"(600, 40)"
+1,left eye,up,75,"(600, 60)"
+1,left eye,up,75,"(600, 80)"
+1,left eye,right,75,"(620, 80)"
+1,left eye,right,75,"(640, 80)"
+1,left eye,down,75,"(640, 60)"
+1,left eye,left,75,"(620, 60)"
+1,left eye,left,75,"(600, 60)"
+1,left eye,2,65,"(600, 60)"
+1,left eye,2,55,"(600, 60)"
+1,left eye,1,65,"(600, 60)"
+1,left eye,1,75,"(600, 60)"
+1,left eye,1,85,"(600, 60)"
+1,left eye,102,85,"(600, 60)"
+1,left eye,space,85,"(600, 60)"
+1,right eye,left,85,"(-620, 0)"
+1,right eye,left,85,"(-640, 0)"
+1,right eye,left,85,"(-660, 0)"
+1,right eye,left,85,"(-680, 0)"
+1,right eye,left,85,"(-700, 0)"
+1,right eye,left,85,"(-720, 0)"
+1,right eye,left,85,"(-740, 0)"
+1,right eye,1,95,"(-740, 0)"
+1,right eye,1,105,"(-740, 0)"
+1,right eye,1,115,"(-740, 0)"
+1,right eye,1,125,"(-740, 0)"
+1,right eye,1,135,"(-740, 0)"
+1,right eye,space,135,"(-740, 0)"

@@ -1,0 +1,15 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 15:12:01
+#sha1: e6c4ed
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+13408,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+13408,design,logged,
+13408,Experiment,started
+13409,stderr,received,'Traceback (most recent call last):'
+13409,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 74, in <module>\n    f"To find your blind spot, please close your {closed_side} eye while facing the screen and look at the cross. \\nThen, press an arrow to move the circle up, down, left or right. Press 1 to make the circle bigger and 2 to make it smaller." \\\n                                                  ^^^^^^^^^^^'
+13409,stderr,received,"NameError: name 'closed_side' is not defined"

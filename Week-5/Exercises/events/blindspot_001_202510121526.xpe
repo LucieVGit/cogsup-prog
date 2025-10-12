@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 15:26:28
+#sha1: 305722
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+12053,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+12053,design,logged,
+12053,Experiment,started
+12080,Stimulus,presented,0
+12882,Keyboard,received,32,wait
+12892,Stimulus,presented,1
+12893,Stimulus,presented,2
+14343,Keyboard,received,1073741903,wait
+14344,stderr,received,'Traceback (most recent call last):'
+14345,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 83, in <module>\n    result = run_trial(L)'
+14345,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 38, in run_trial\n    fixation.preload()\n    ^^^^^^^^'
+14345,stderr,received,"UnboundLocalError: cannot access local variable 'fixation' where it is not associated with a value"

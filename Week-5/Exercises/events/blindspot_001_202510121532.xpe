@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 15:32:16
+#sha1: b9b6c1
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+10956,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+10956,design,logged,
+10956,Experiment,started
+10984,Stimulus,presented,0
+11839,Keyboard,received,32,wait
+11839,stderr,received,'Traceback (most recent call last):'
+11840,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 85, in <module>\n    result = run_trial(L)'
+11840,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 39, in run_trial\n    fixation = stimuli.FixCross(size=(150, 150), line_width=10, position=(a, 0))\n                                                                          ^'
+11840,stderr,received,"UnboundLocalError: cannot access local variable 'a' where it is not associated with a value"

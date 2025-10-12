@@ -1,0 +1,22 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 16:33:39
+#sha1: 91f826
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+23478,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+23478,design,logged,
+23478,Experiment,started
+23508,Stimulus,presented,0
+24162,Keyboard,received,32,wait
+24169,Stimulus,presented,1
+24170,Stimulus,presented,2
+25038,Keyboard,received,1073741906,wait
+25039,stderr,received,'Traceback (most recent call last):'
+25040,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 95, in <module>\n    status, pos, r, eye, key_name = run_trial(L)\n                                    ~~~~~~~~~^^^'
+25040,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 60, in run_trial\n    name()\n    ~~~~^^'
+25040,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 21, in name\n    key_name = names.get(key, "name")\n                         ^^^'
+25040,stderr,received,"NameError: name 'key' is not defined"

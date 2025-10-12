@@ -1,0 +1,21 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 16:27:15
+#sha1: 9261b4
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+13164,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+13164,design,logged,
+13164,Experiment,started
+14556,Stimulus,presented,0
+15037,Keyboard,received,32,wait
+15046,Stimulus,presented,1
+15047,Stimulus,presented,2
+15705,Keyboard,received,1073741903,wait
+15705,stderr,received,'Traceback (most recent call last):'
+15706,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 85, in <module>\n    status, pos, r, eye, key_name = run_trial(L)\n                                    ~~~~~~~~~^^^'
+15706,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 71, in run_trial\n    return "continue", pos, r, eye, key_name\n                                    ^^^^^^^^'
+15706,stderr,received,"UnboundLocalError: cannot access local variable 'key_name' where it is not associated with a value"

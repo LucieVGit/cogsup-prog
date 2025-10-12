@@ -1,0 +1,98 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Sun Oct 12 2025 16:21:29
+#sha1: 692e94
+#modules: 
+#display: size=(800, 600), window_mode=False, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+19756,design,log,
+#design: #exp: Blindspot
+#design: block_cnt,block_id,trial_cnt,trial_id
+19757,design,logged,
+19757,Experiment,started
+19785,Stimulus,presented,0
+22832,Keyboard,received,32,wait
+22839,Stimulus,presented,1
+22840,Stimulus,presented,2
+23792,Keyboard,received,1073741906,wait
+23799,Stimulus,presented,3
+23800,Stimulus,presented,4
+23946,Keyboard,received,1073741906,wait
+23955,Stimulus,presented,5
+23956,Stimulus,presented,6
+24091,Keyboard,received,1073741906,wait
+24101,Stimulus,presented,7
+24101,Stimulus,presented,8
+24234,Keyboard,received,1073741906,wait
+24243,Stimulus,presented,9
+24244,Stimulus,presented,10
+24585,Keyboard,received,1073741905,wait
+24593,Stimulus,presented,11
+24594,Stimulus,presented,12
+24723,Keyboard,received,1073741905,wait
+24730,Stimulus,presented,13
+24731,Stimulus,presented,14
+25022,Keyboard,received,1073741904,wait
+25031,Stimulus,presented,15
+25032,Stimulus,presented,16
+25317,Keyboard,received,1073741903,wait
+25326,Stimulus,presented,17
+25327,Stimulus,presented,18
+25619,Keyboard,received,1073741903,wait
+25629,Stimulus,presented,19
+25630,Stimulus,presented,20
+25981,Keyboard,received,102,wait
+26006,Stimulus,presented,21
+26309,Keyboard,received,1073741904,wait
+26316,Stimulus,presented,22
+26316,Stimulus,presented,23
+26784,Keyboard,received,1073741903,wait
+26792,Stimulus,presented,24
+26793,Stimulus,presented,25
+27368,Keyboard,received,49,wait
+27382,Stimulus,presented,26
+27383,Stimulus,presented,27
+27533,Keyboard,received,49,wait
+27543,Stimulus,presented,28
+27544,Stimulus,presented,29
+27697,Keyboard,received,49,wait
+27709,Stimulus,presented,30
+27710,Stimulus,presented,31
+27810,Keyboard,received,49,wait
+27824,Stimulus,presented,32
+27825,Stimulus,presented,33
+28005,Keyboard,received,49,wait
+28017,Stimulus,presented,34
+28018,Stimulus,presented,35
+28155,Keyboard,received,49,wait
+28168,Stimulus,presented,36
+28169,Stimulus,presented,37
+28289,Keyboard,received,49,wait
+28303,Stimulus,presented,38
+28303,Stimulus,presented,39
+28467,Keyboard,received,49,wait
+28483,Stimulus,presented,40
+28484,Stimulus,presented,41
+28673,Keyboard,received,49,wait
+28689,Stimulus,presented,42
+28690,Stimulus,presented,43
+29194,Keyboard,received,50,wait
+29210,Stimulus,presented,44
+29211,Stimulus,presented,45
+29368,Keyboard,received,50,wait
+29380,Stimulus,presented,46
+29381,Stimulus,presented,47
+29522,Keyboard,received,50,wait
+29540,Stimulus,presented,48
+29540,Stimulus,presented,49
+29682,Keyboard,received,50,wait
+29695,Stimulus,presented,50
+29696,Stimulus,presented,51
+29845,Keyboard,received,50,wait
+29857,Stimulus,presented,52
+29858,Stimulus,presented,53
+30290,Keyboard,received,32,wait
+30290,stderr,received,'Traceback (most recent call last):'
+30291,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 85, in <module>\n    status, pos, r, eye, key = run_trial(L)\n                               ~~~~~~~~~^^^'
+30291,stderr,received,'  File "C:\\Users\\lucie\\Documents\\CogSup\\Programming\\Assignments\\Week-5\\Exercises\\blindspot.py", line 64, in run_trial\n    for key, key_name in names:\n        ^^^^^^^^^^^^^'
+30291,stderr,received,'TypeError: cannot unpack non-iterable int object'
