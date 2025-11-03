@@ -1,0 +1,83 @@
+#Expyriment 1.0.0 (Python 3.13.7), .xpe-file, coding: cp1252
+#date: Mon Oct 20 2025 21:55:23
+#sha1: 58482a
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Windows', node='DESKTOP-GNBUSH4', release='11', version='10.0.26100', machine='AMD64')
+Time,Type,Event,Value,Detail,Detail2
+3693,design,log,
+#design: #exp: Stroop
+#design: #dvn: block_cnt,trial_cnt,trial_type,word,color,RT,correct
+#design: block_cnt,block_id,trial_cnt,trial_id
+3693,design,logged,
+3693,Experiment,started
+3702,Stimulus,presented,19
+9581,Keyboard,received,32,wait
+9582,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+9583,Stimulus,presented,0
+10084,Stimulus,presented,1
+11952,Keyboard,received,106,wait
+11952,Stimulus,presented,17
+12953,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+12953,Stimulus,presented,0
+13454,Stimulus,presented,6
+14120,Keyboard,received,106,wait
+14120,Stimulus,presented,17
+15121,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+15121,Stimulus,presented,0
+15623,Stimulus,presented,11
+16504,Keyboard,received,106,wait
+16504,Stimulus,presented,17
+17504,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+17505,Stimulus,presented,0
+18006,Stimulus,presented,16
+18494,Keyboard,received,106,wait
+18495,Stimulus,presented,17
+19495,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+19496,Stimulus,presented,0
+19997,Stimulus,presented,2
+20635,Keyboard,received,102,wait
+20635,Stimulus,presented,17
+21636,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+21636,Stimulus,presented,0
+22137,Stimulus,presented,5
+23048,Keyboard,received,102,wait
+23048,Stimulus,presented,17
+24049,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+24050,Stimulus,presented,0
+24550,Stimulus,presented,12
+25385,Keyboard,received,102,wait
+25386,Stimulus,presented,17
+26386,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+26387,Stimulus,presented,0
+26888,Stimulus,presented,15
+27615,Keyboard,received,102,wait
+27615,Stimulus,presented,17
+28615,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+28617,Stimulus,presented,0
+29118,Stimulus,presented,1
+29776,Keyboard,received,106,wait
+29776,Stimulus,presented,17
+30776,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+30777,Stimulus,presented,0
+31279,Stimulus,presented,6
+31841,Keyboard,received,106,wait
+31841,Stimulus,presented,17
+32842,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+32842,Stimulus,presented,0
+33343,Stimulus,presented,11
+33984,Keyboard,received,106,wait
+33984,Stimulus,presented,17
+34985,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+34986,Stimulus,presented,0
+35486,Stimulus,presented,16
+36799,Keyboard,received,106,wait
+36800,Stimulus,presented,17
+37800,stdout,received,"[{'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}, {'trial_type': 'match', 'word': 'red', 'color': 'red'}, {'trial_type': 'match', 'word': 'blue', 'color': 'blue'}, {'trial_type': 'match', 'word': 'green', 'color': 'green'}, {'trial_type': 'match', 'word': 'orange', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'red', 'color': 'blue'}, {'trial_type': 'mismatch', 'word': 'blue', 'color': 'red'}, {'trial_type': 'mismatch', 'word': 'green', 'color': 'orange'}, {'trial_type': 'mismatch', 'word': 'orange', 'color': 'green'}]"
+37801,Stimulus,presented,0
+38302,Stimulus,presented,2
+42586,Experiment,paused
+42589,Stimulus,presented,33
+44207,Keyboard,received,y,wait_char
+44207,Experiment,ended
+44223,Data,saved

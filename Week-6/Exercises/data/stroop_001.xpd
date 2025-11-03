@@ -1,43 +1,22 @@
 #Expyriment 1.0.0 (Python 3.13.7), .xpd-file, coding: cp1252
-#date: Thu Oct 16 2025 12:36:14
+#date: Mon Oct 20 2025 19:59:37
 #--EXPERIMENT INFO
 #e mainfile: stroop.py
-#e sha1: 9afb31
+#e sha1: 93e31d
 #e modules: 
 #e Experiment: Stroop
 #e no between subject factors
 #--SUBJECT INFO
 #s id: 1
 subject_id,block_cnt,trial_cnt,trial_type,word,color,RT,correct
-1,1,1,match,blue,blue,1140,True
-1,1,2,match,green,green,937,True
-1,1,3,match,blue,blue,675,True
-1,1,4,match,orange,orange,893,True
-1,1,5,match,blue,blue,663,True
-1,1,6,mismatch,green,orange,817,True
-1,1,7,mismatch,orange,green,1025,True
-1,1,8,mismatch,green,orange,1634,True
-1,1,9,mismatch,red,green,1250,True
-1,1,10,mismatch,blue,orange,579,True
-1,1,11,mismatch,green,red,560,True
-1,1,12,mismatch,green,orange,506,True
-1,1,13,mismatch,green,blue,575,True
-1,1,14,match,green,green,706,True
-1,1,15,mismatch,blue,red,533,True
-1,1,16,mismatch,green,blue,629,True
-1,2,1,mismatch,blue,green,835,True
-1,2,2,mismatch,red,orange,450,True
-1,2,3,mismatch,blue,green,488,True
-1,2,4,match,red,red,415,False
-1,2,5,match,blue,blue,650,True
-1,2,6,mismatch,red,orange,717,True
-1,2,7,match,orange,orange,694,True
-1,2,8,mismatch,red,blue,637,True
-1,2,9,mismatch,red,blue,558,True
-1,2,10,mismatch,blue,orange,620,True
-1,2,11,match,green,green,976,True
-1,2,12,match,red,red,749,True
-1,2,13,match,green,green,697,True
-1,2,14,mismatch,red,orange,663,True
-1,2,15,mismatch,red,orange,907,False
-1,2,16,mismatch,blue,green,850,True
+1,1,1,mismatch,orange,blue,2344,False
+1,1,2,match,green,green,773,False
+1,1,3,match,blue,blue,721,False
+1,1,4,match,green,green,1994,True
+1,1,5,match,green,green,497,True
+1,1,6,match,red,red,597,True
+1,1,7,mismatch,orange,red,865,True
+1,1,8,match,blue,blue,1000,True
+1,1,9,match,blue,blue,834,False
+1,1,10,mismatch,orange,red,1271,True
+1,1,11,match,blue,blue,585,True
