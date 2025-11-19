@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>F & J keys</title>
+    <script src="https://unpkg.com/jspsych@8.0.2"></script>
+    <script src="https://unpkg.com/@jspsych/plugin-html-keyboard-response@2.0.0"></script>
+    <link href="https://unpkg.com/jspsych@8.0.2/css/jspsych.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <img src="Race_de_chien_Bouvier_Bernois_1_large.webp">
+
+  </body>
+  <script type="text/javascript">
+    const jsPsych = initJsPsych({
+      on_finish: function(){
+        jsPsych.data.get().localSave("csv", "demo_exo1_results.csv");
+      }
+    });
+
+let timeline = []
+
+for (let i = 0; i < 6; i++) {
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: '+',
+      choices: "NO_KEYS",
+      trial_duration: 500 //ms
+    });
+
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: 'Please, press the key F or J!',
+      choices: ['f', 'j'],
+    });
+
+    timeline.push({
+      type: jsPsychHtmlKeyboardResponse,
+      stimulus: ' ',
+      choices: "NO_KEYS",
+      trial_duration: 1000 //ms,
+    });
+}
+
+    jsPsych.run(timeline);
+  </script>
+</html>
